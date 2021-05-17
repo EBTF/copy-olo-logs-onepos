@@ -52,7 +52,7 @@ To schedule this application to run every `X` hours, minutes, etc., you can use 
 
     `"C:\Program Files\nodejs\node.exe"`
 
-    5c. `Add Arguments` needs to be set to the following:
+    5c. `Add Arguments` needs to be set to the file path of the applications `index.js` file
 
     `"C:\onePOS/LOGS/copy-olo-logs-onepos/index.js"`
 
