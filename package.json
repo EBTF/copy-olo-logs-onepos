@@ -1,0 +1,14 @@
+{
+  "name": "copy-logs-node",
+  "version": "1.0.0",
+  "description": "Copy Online Ordering onePOS Log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis James",
+  "license": "ISC",
+  "dependencies": {
+    "luxon": "^1.27.0"
+  }
+}
