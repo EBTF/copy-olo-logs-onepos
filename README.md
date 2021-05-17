@@ -40,21 +40,21 @@ To schedule this application to run every `X` hours, minutes, etc., you can use 
 
 4. Navigate to the `Triggers` tab and click `New...`
 
-5. To set it up to run every hour, select the `Repeat task every:` checkbox and select `1 hour` for a duration of `indefinitely`
+    4a. To set it up to run every hour, select the `Repeat task every:` checkbox and select `1 hour` for a duration of `indefinitely`
 
-    5a. Set the `Start` time at the top to start at the next hour and it will run every hour on the hour
+    4b. Set the `Start` time at the top to start at the next hour and it will run every hour on the hour
 
-6. Navigate to the `Actions` tab and click `New...`
+5. Navigate to the `Actions` tab and click `New...`
 
-7. Keep the `Action` as "Start a Program"
+    5a. Keep the `Action` as "Start a Program"
 
-8. Set the `Program/Script` to be the file path to `node.exe`
+    5b. Set the `Program/Script` to be the file path to `node.exe`
 
-`"C:\Program Files\nodejs\node.exe"`
+    `"C:\Program Files\nodejs\node.exe"`
 
-9. `Add Arguments` needs to be set to the following:
+    5c. `Add Arguments` needs to be set to the following:
 
-`"C:\onePOS/LOGS/copy-olo-logs-onepos/index.js"`
+    `"C:\onePOS/LOGS/copy-olo-logs-onepos/index.js"`
 
 ### Terminating the Task Scheduler
 
