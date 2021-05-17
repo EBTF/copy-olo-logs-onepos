@@ -13,7 +13,7 @@ cd C:\onePOS\LOGS
 git clone https://github.com/EBTF/copy-olo-logs-onepos.git
 ```
 
-You should now have a `copy-logo-logs-onepos` folder inside of the `LOGS` folder
+You should now have a `copy-olo-logs-onepos` folder inside of the `LOGS` folder
 
 3. Install dependencies using `npm`
 
